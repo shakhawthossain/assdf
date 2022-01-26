@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+    /* height: 200px;
+    background: #000; */
+}
+
+.main {
+    display: flex;
+}
+
+/* .common_para{
+
+}
+.common_heading{
+
+} */
+/* ----------------------common csss end------------------ */
+/* ----------------------main mneu csss start------------------ */
+#main_menu {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100%;
+}
+
+#main_menu .logo {
+    width: 20%;
+
+}
+
+#main_menu .menu {
+    width: 80%;
+    text-align: end;
+}
+
+#main_menu .menu ul li {
+    padding-top: 56px;
+}
+
+#main_menu .menu ul li a {
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+
+
+/* ----------------------main mneu csss end------------------ */
+/* ----------------------banner part mneu csss start------------------ */
+#banner_part {
+    background: url(../image/banner.png) no-repeat center;
+
+    background-size: cover;
+    text-align: center;
+}
+
+#banner_part .content h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: arial;
+    padding-top: 200px;
+    padding-bottom: 223px;
+    width: 720px;
+    margin: 0 auto;
+}
+
+#banner_part .content h1 img {
+    color: white;
+    padding-top: 20px;
+}
+
+#banner_part .button_part ul li a {
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.589);
+    padding: 20px;
+    border: 1px solid white;
+
+
+}
+
+#banner_part .button_part ul .button a {
+    background: rgba(255, 255, 255, 0.493);
+    color: black;
+    border: 1px solid black;
+
+}
+
+
+
+
+
+/* ----------------------banner part mneu csss end------------------ */
+/* ----------------------service part mneu csss end------------------ */
+#service_part {
+    background: white;
+}
+
+#service_part .main .content h1 {
+    color: rgb(196, 183, 9);
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#service_part .main .content img {
+    margin-left: 120px;
+    padding-bottom: 20px;
+}
+
+#service_part .main .content p {
+    color: black;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+#service_part .main .image {
+    padding-top: 72px;
+    padding-bottom: 100px;
+    padding-left: 72px;
+}
+
+
+
+
+/* ----------------------service part mneu csss end------------------ */
+/* - -----------------banner  part 2  start------------------------- */
+#banner_part2 {
+    background-image: url(../image/banner_2.png);
+    height: 758px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#banner_part2 .content {
+    height: 557px;
+    width: 570px;
+    background: rgba(0, 0, 0, 0.589);
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    margin-left: 640px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+#banner_part2 .content p {
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+#banner_part2 .content .image {
+    padding-top: 100px;
+    border-radius: 1px solid white;
+}
+
+/* - -----------------banner  part 2  end------------------------- */
+/* - -----------------service cost  start ------------------------ */
+#service_cost .main {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#service_cost .iteam {
+    width: 570px;
+    text-align: center;
+    color: rgb(41, 37, 37);
+    padding-top: 30px;
+    line-height: 40px;
+    padding-bottom: 50px;
+
+}
+
+#service_cost .iteam h2 {
+    color: coral;
+    font-size: 30px;
+
+}
+
+#service_cost .iteam h1 {
+    color: coral;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+
+
+/* - ----------------service cost   end------------------------- */
+/* - ----------------banner part 2  start------------------------- */
+#banner_part3 {
+    background-image: url(../image/banner3.png);
+    height: 758px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#banner_part3 .content {
+    height: 557px;
+    width: 770px;
+    background: rgba(0, 0, 0, 0.589);
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    margin-left: 224px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+#banner_part3 .content p {
+    line-height: 35px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#banner_part3 .content h1 {
+    line-height: 35px;
+    margin-top: 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+
+/* - ----------------banner part 2   end------------------------- */
+/* - ----------------bottom part  start------------------------- */
+#bottom_part {
+    background: white;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    text-align: center;
+}
+
+#bottom_part .main .iteam {
+    margin-right: 20px;
+    margin-top: ;
+}
+
+#bottom_part .main .iteam2 {
+    border: 1px solid black;
+}
+
+#login {
+    color: rgb(61, 19, 211);
+    border: 2px solid white;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+
+
+/* - ----------------bottom part  end------------------------- */
+#contact .main {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#contact{
+    background: #000;
+}
+#contact .iteam{
+    color: blanchedalmond;
+width: 400px;
+text-align: center;
+padding-bottom: 40px;
+}
+#contact .iteam h1{
+    color: blanchedalmond;
+font-size: 30px;
+text-transform: uppercase;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+#contact .iteam img{
+    padding-top: 20px;
+}
